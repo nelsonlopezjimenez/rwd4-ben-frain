@@ -1,0 +1,57 @@
+body {
+    padding: 1rem 0.5rem ;
+    background-color: #eff;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+.Header {
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    border-bottom: 8px double #f9f9f9;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+.Strap {
+    font-size: 1rem;
+}
+.IntroWrapper {
+    display: flex;
+    flex-direction: column;
+}
+.IntroText {
+    font-size: 1.8rem;
+	font-style: italic;
+}
+.MoneyShot {
+    position: relative;
+}
+.MoneyShotImg {
+    border: 6px solid #e8cfa9;
+	border-radius: 4px;
+}
+.ImageCaption {
+	font-size: .75rem;
+	position: absolute;
+	bottom: .5rem;
+	right: 1rem;
+}
+.Ingredients {
+    font-size: .9rem;
+    float: right;
+    padding: 1rem;
+    margin: 0 0 .5rem 1rem;
+    border-radius: 3px;
+    background-color: #ffffdf;
+    border: 2px solid #e8cfa9;
+}
+.Subheader {
+    margin: 0;
+}
+@media screen {
+    .Header{
+        border: 4px dotted red;
+    }
+}

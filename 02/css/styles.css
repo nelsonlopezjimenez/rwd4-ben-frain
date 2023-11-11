@@ -36,9 +36,9 @@ img {
 	border-radius: 4px;
 }
 
-.LogoWrapper {
+/* .LogoWrapper {
 	display: block;
-}
+} */
 
 .ImageCaption {
 	font-size: .75rem;
@@ -89,7 +89,7 @@ img {
 		padding: .5rem;
 		font-size: 2.5rem;
 		text-align: left;
-		position: relative;
+		/* position: relative; */
 	}
 
 	.Ingredients {
