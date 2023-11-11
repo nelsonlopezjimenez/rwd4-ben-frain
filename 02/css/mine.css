@@ -50,8 +50,33 @@ img {
 .Subheader {
     margin: 0;
 }
-@media screen {
+@media  (min-width: 50rem) and (max-width: 90rem) {
     .Header{
-        border: 4px dotted red;
+        /* border: 4px dotted red; */
+        background-color: #eff;
     }
+    .IntroWrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    .IntroText {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    figure {
+        width: 100%;
+        /* border: 4px solid green; */
+    }
+    .Ingredients {
+		font-size: .9rem;
+		float: right;
+		padding: 1rem;
+		margin: 0 0 .5rem 1rem;
+		border-radius: 3px;
+		background-color: #ffffdf;
+		border: 2px solid #e8cfa9;
+	}
+    .Ingredients h3 {
+		margin: 0;
+	}
 }
